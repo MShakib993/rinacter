@@ -1,0 +1,63 @@
+
+
+body{margin: 0; padding: 0}
+
+
+.image {width: 100%;
+ float: left;background:white;}
+.image ul{margin: 0;padding: 0;}
+.image ul li{list-style: none;float: left;width: 50%}
+.container{width:1100px;margin: 0 auto;}
+
+/*   NAVIGATION START FROM HERE*/
+
+     .header{width: 100%; float: left; background: black;line-height: 25px;}
+     .header ul{margin: 0; padding: 0}
+     .header ul li{ list-style: none; float: left; position: relative;}
+     .header ul li ul{display: none;position: absolute; left: 0;top: 50px;}
+     .header ul li:hover ul{display: block;background: orange;}
+     .header li:hover a{background: orange;}
+
+     .header ul li a{text-decoration: none; padding:15px 10px; color: white;display: block;
+       margin: 0 15px;
+       font-size: 18px}
+
+
+
+
+
+
+  .header ul li:nth-child(1) {text-decoration: none; }
+  .header ul li:nth-child(2) {text-decoration: none; }
+  .header ul li:nth-child(3) {text-decoration: none; }
+  .header ul li:nth-child(4) {text-decoration: none; }
+  .header ul li:nth-child(5) {text-decoration: none; }
+  .header ul li:nth-child(6) {text-decoration: none; }
+  .header ul li:last-child{float: right;font-size: 16px;color: orange;}
+
+/*  NAVIGATION END FROM HERE*/
+
+/* About first details start from here*/
+
+.container{width:1100px;margin: 0 auto;}
+.about1{width: 100%;float: left;}
+.about1 ul{margin: 0 ; padding: 0;}
+.about1 ul li{width: 46%;float: left;list-style: none;line-height:2;margin: 30px 0 0 30px}
+.about1 h3{font-size:45px}
+.about1 p {color: grey;}
+.about1 ul li img{width:100%}
+.about1 ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 8px 20px;
+  background: orange;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  display: inline-block;}
+ 
+ 
+.footer{width: 100%; float: left;background:black;color: white;font-family: 'Poppins', sans-serif;}
+.footer ul{margin: 0 ; padding: 0;}
+.footer ul li{width: 22%;float: left;list-style: none;margin: 0 15px}
+             
+.border{border-bottom:1px dotted; padding-bottom: 5px;}

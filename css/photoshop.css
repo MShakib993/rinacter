@@ -1,0 +1,60 @@
+
+
+body{margin: 0; padding: 0}
+
+
+.image {width: 100%;
+ float: left;background:white;}
+.image ul{margin: 0;padding: 0;}
+.image ul li{list-style: none;float: left;width: 50%}
+.container{width:1100px;margin: 0 auto;}
+
+/*   NAVIGATION START FROM HERE*/
+
+     .header{width: 100%; float: left; background: black;line-height: 25px;}
+     .header ul{margin: 0; padding: 0}
+     .header ul li{ list-style: none; float: left; position: relative;}
+     .header ul li ul{display: none;position: absolute; left: 0;top: 50px;}
+     .header ul li:hover ul{display: block;background: orange;}
+     .header li:hover a{background: orange;}
+
+     .header ul li a{text-decoration: none; padding:15px 10px; color: white;display: block;
+       margin: 0 15px;
+       font-size: 18px}
+
+
+
+
+
+
+  .header ul li:nth-child(1) {text-decoration: none; }
+  .header ul li:nth-child(2) {text-decoration: none; }
+  .header ul li:nth-child(3) {text-decoration: none; }
+  .header ul li:nth-child(4) {text-decoration: none; }
+  .header ul li:nth-child(5) {text-decoration: none; }
+  .header ul li:nth-child(6) {text-decoration: none; }
+  .header ul li:last-child{float: right;font-size: 16px;color: orange;}
+
+/*  NAVIGATION END FROM HERE*/
+
+.hd{text-align: center;width: 100%;float: left;}
+.hd h1{margin:30px 0  15px 0;padding:0;font-size: 45px}
+
+
+.container{width:1100px;margin: 0 auto;}
+.photo{width: 100%;float: left;}
+.photo ul{margin:0;padding:0;}
+.photo ul li{width: 30%;float: left;list-style: none;margin: 50px 0 0
+ 15px;background: grey;text-align: center;}
+.photo ul li img{width: 100%}
+.photo ul li a{color: black;}
+
+
+
+.footer{width: 100%; float: left;background:black;color:
+ white;font-family: 'Poppins', sans-serif;margin: 45px 0}
+.footer ul{margin: 0 ; padding: 0;}
+.footer ul li{width: 22%;float: left;list-style: none;margin: 0 15px}
+             
+
+.border{border-bottom:1px dotted; padding-bottom: 5px;}
